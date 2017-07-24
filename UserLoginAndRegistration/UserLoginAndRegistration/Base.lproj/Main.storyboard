@@ -120,10 +120,10 @@
             </objects>
             <point key="canvasLocation" x="1570" y="116"/>
         </scene>
-        <!--View Controller-->
+        <!--Register Page View Controller-->
         <scene sceneID="qc4-la-tcU">
             <objects>
-                <viewController id="TRu-Kj-V1b" sceneMemberID="viewController">
+                <viewController id="TRu-Kj-V1b" customClass="RegisterPageViewController" customModule="UserLoginAndRegistration" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="znh-Zh-Jbk"/>
                         <viewControllerLayoutGuide type="bottom" id="inV-UX-SNb"/>
@@ -173,6 +173,9 @@
                                 <color key="backgroundColor" red="0.0" green="0.50425197840000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.99989169840000003" green="1" blue="0.99988096950000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Register"/>
+                                <connections>
+                                    <action selector="registerButtonTapped:" destination="TRu-Kj-V1b" eventType="touchUpInside" id="Du7-D8-Zu0"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Repeat Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GL7-VQ-YXF">
                                 <rect key="frame" x="16" y="290" width="343" height="21"/>
@@ -196,6 +199,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="repeatPasswordTextField" destination="Veb-P7-4q5" id="G2M-zn-NEV"/>
+                        <outlet property="userEmailTextField" destination="Cg6-EC-p5Z" id="5H1-z1-IeN"/>
+                        <outlet property="userPasswordTextField" destination="2Gf-jt-Ly3" id="u3A-Ns-NLJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yo1-0k-62Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

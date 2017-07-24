@@ -14,6 +14,7 @@
 		84D5719A1F263F4600F419C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D571981F263F4600F419C0 /* LaunchScreen.storyboard */; };
 		84D571A51F263F4600F419C0 /* UserLoginAndRegistrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D571A41F263F4600F419C0 /* UserLoginAndRegistrationTests.swift */; };
 		84D571B01F263F4600F419C0 /* UserLoginAndRegistrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D571AF1F263F4600F419C0 /* UserLoginAndRegistrationUITests.swift */; };
+		84D66A451F265AE30002EDA3 /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D66A441F265AE30002EDA3 /* RegisterPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		84D571AB1F263F4600F419C0 /* UserLoginAndRegistrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserLoginAndRegistrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D571AF1F263F4600F419C0 /* UserLoginAndRegistrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginAndRegistrationUITests.swift; sourceTree = "<group>"; };
 		84D571B11F263F4600F419C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D66A441F265AE30002EDA3 /* RegisterPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				84D571961F263F4600F419C0 /* Assets.xcassets */,
 				84D571981F263F4600F419C0 /* LaunchScreen.storyboard */,
 				84D5719B1F263F4600F419C0 /* Info.plist */,
+				84D66A441F265AE30002EDA3 /* RegisterPageViewController.swift */,
 			);
 			path = UserLoginAndRegistration;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				84D571921F263F4600F419C0 /* ViewController.swift in Sources */,
 				84D571901F263F4600F419C0 /* AppDelegate.swift in Sources */,
+				84D66A451F265AE30002EDA3 /* RegisterPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +511,7 @@
 				84D571B61F263F4600F419C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84D571B71F263F4600F419C0 /* Build configuration list for PBXNativeTarget "UserLoginAndRegistrationTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				84D571B91F263F4600F419C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84D571BA1F263F4600F419C0 /* Build configuration list for PBXNativeTarget "UserLoginAndRegistrationUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				84D571BC1F263F4600F419C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
