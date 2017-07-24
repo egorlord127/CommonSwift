@@ -21,8 +21,13 @@ class ViewController: UIViewController {
     }
 
     override func viewDidAppear(_ animated: Bool) {
-//        self.shouldPerformSegue(withIdentifier: "loginView", sender: self)
-        self.performSegue(withIdentifier: "loginView", sender: self)
+
+        let isUserLoggedIn = UserDefaults.standard.bool(forKey: "isUserLoggedIn")
+        
+        if(!isUserLoggedIn)
+        {
+            self.performSegue(withIdentifier: "loginView", sender: self)
+        }
     }
 }
 

@@ -15,6 +15,7 @@
 		84D571A51F263F4600F419C0 /* UserLoginAndRegistrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D571A41F263F4600F419C0 /* UserLoginAndRegistrationTests.swift */; };
 		84D571B01F263F4600F419C0 /* UserLoginAndRegistrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D571AF1F263F4600F419C0 /* UserLoginAndRegistrationUITests.swift */; };
 		84D66A451F265AE30002EDA3 /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D66A441F265AE30002EDA3 /* RegisterPageViewController.swift */; };
+		84D66A471F26637A0002EDA3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D66A461F26637A0002EDA3 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		84D571AF1F263F4600F419C0 /* UserLoginAndRegistrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginAndRegistrationUITests.swift; sourceTree = "<group>"; };
 		84D571B11F263F4600F419C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84D66A441F265AE30002EDA3 /* RegisterPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
+		84D66A461F26637A0002EDA3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				84D571981F263F4600F419C0 /* LaunchScreen.storyboard */,
 				84D5719B1F263F4600F419C0 /* Info.plist */,
 				84D66A441F265AE30002EDA3 /* RegisterPageViewController.swift */,
+				84D66A461F26637A0002EDA3 /* LoginViewController.swift */,
 			);
 			path = UserLoginAndRegistration;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D66A471F26637A0002EDA3 /* LoginViewController.swift in Sources */,
 				84D571921F263F4600F419C0 /* ViewController.swift in Sources */,
 				84D571901F263F4600F419C0 /* AppDelegate.swift in Sources */,
 				84D66A451F265AE30002EDA3 /* RegisterPageViewController.swift in Sources */,

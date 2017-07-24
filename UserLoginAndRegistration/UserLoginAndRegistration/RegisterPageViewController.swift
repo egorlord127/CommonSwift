@@ -46,7 +46,9 @@ class RegisterPageViewController: UIViewController {
             return
         }
         // Store data
-        
+        UserDefaults.standard.set(userEmail, forKey: "userEmail")
+        UserDefaults.standard.set(userPassword, forKey: "userPassword")
+        UserDefaults.standard.synchronize()
         // Display alert message with confirmation
         let myAlert =  UIAlertController(title: "Alert", message: "Registration is successful. Thank you!", preferredStyle: UIAlertControllerStyle.alert)
         let okAction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.default) { action in

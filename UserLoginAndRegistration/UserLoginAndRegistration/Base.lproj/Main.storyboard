@@ -41,10 +41,10 @@
             </objects>
             <point key="canvasLocation" x="756" y="117"/>
         </scene>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="fCu-Hf-nZc">
             <objects>
-                <viewController id="sfS-nv-YGD" sceneMemberID="viewController">
+                <viewController id="sfS-nv-YGD" customClass="LoginViewController" customModule="UserLoginAndRegistration" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="yor-GO-HX6"/>
                         <viewControllerLayoutGuide type="bottom" id="o6i-0n-adu"/>
@@ -94,6 +94,9 @@
                                 <color key="backgroundColor" red="0.0" green="0.50425197838429625" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.99989169840000003" green="1" blue="0.99988096950000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Login"/>
+                                <connections>
+                                    <action selector="loginButtonTapped:" destination="sfS-nv-YGD" eventType="touchUpInside" id="BCe-gi-qvu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0nH-T9-HCD">
                                 <rect key="frame" x="141" y="393" width="93" height="30"/>
@@ -115,6 +118,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="userEmailTextField" destination="bhP-2v-uSd" id="1pk-RY-udK"/>
+                        <outlet property="userPasswordTextField" destination="AMk-8O-ozP" id="hyh-aD-VJq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3pj-9K-SG5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
