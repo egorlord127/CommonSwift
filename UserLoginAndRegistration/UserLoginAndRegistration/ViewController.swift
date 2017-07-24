@@ -29,5 +29,11 @@ class ViewController: UIViewController {
             self.performSegue(withIdentifier: "loginView", sender: self)
         }
     }
+    @IBAction func logoutButtonTapped(_ sender: Any) {
+        UserDefaults.standard.set(false, forKey: "isUserLoggedIn")
+        UserDefaults.standard.synchronize()
+        
+        self.performSegue(withIdentifier: "loginView", sender: self)
+    }
 }
 
