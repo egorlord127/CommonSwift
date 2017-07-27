@@ -16,6 +16,9 @@
 		8412D3C81F29649E0000686A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8412D3C61F29649E0000686A /* LaunchScreen.storyboard */; };
 		8412D3D31F29649E0000686A /* SideMenuExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412D3D21F29649E0000686A /* SideMenuExampleTests.swift */; };
 		8412D3DE1F29649E0000686A /* SideMenuExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412D3DD1F29649E0000686A /* SideMenuExampleUITests.swift */; };
+		8412D3EC1F29659F0000686A /* CustomSideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412D3EB1F29659F0000686A /* CustomSideMenuController.swift */; };
+		8412D3EE1F2968310000686A /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412D3ED1F2968310000686A /* MenuController.swift */; };
+		8412D3F01F296F530000686A /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412D3EF1F296F530000686A /* ContentViewController.swift */; };
 		DE0E02844589928D4500BB8F /* Pods_SideMenuExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 023DC0847E43F2B2C05552A1 /* Pods_SideMenuExample.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +56,9 @@
 		8412D3D91F29649E0000686A /* SideMenuExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SideMenuExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8412D3DD1F29649E0000686A /* SideMenuExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuExampleUITests.swift; sourceTree = "<group>"; };
 		8412D3DF1F29649E0000686A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8412D3EB1F29659F0000686A /* CustomSideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSideMenuController.swift; sourceTree = "<group>"; };
+		8412D3ED1F2968310000686A /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		8412D3EF1F296F530000686A /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		85B61ABCE7061C1ECB401693 /* Pods-SideMenuExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SideMenuExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SideMenuExampleUITests/Pods-SideMenuExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8674C0B24BE037731D5BA48B /* Pods-SideMenuExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SideMenuExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SideMenuExampleTests/Pods-SideMenuExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9558B1BC94C009E3BC3BF96D /* Pods_SideMenuExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SideMenuExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,6 +136,9 @@
 				8412D3BD1F29649E0000686A /* AppDelegate.swift */,
 				8412D3BF1F29649E0000686A /* ViewController.swift */,
 				8412D3C11F29649E0000686A /* Main.storyboard */,
+				8412D3EF1F296F530000686A /* ContentViewController.swift */,
+				8412D3ED1F2968310000686A /* MenuController.swift */,
+				8412D3EB1F29659F0000686A /* CustomSideMenuController.swift */,
 				8412D3C41F29649E0000686A /* Assets.xcassets */,
 				8412D3C61F29649E0000686A /* LaunchScreen.storyboard */,
 				8412D3C91F29649E0000686A /* Info.plist */,
@@ -446,6 +455,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8412D3F01F296F530000686A /* ContentViewController.swift in Sources */,
+				8412D3EE1F2968310000686A /* MenuController.swift in Sources */,
+				8412D3EC1F29659F0000686A /* CustomSideMenuController.swift in Sources */,
 				8412D3C01F29649E0000686A /* ViewController.swift in Sources */,
 				8412D3BE1F29649E0000686A /* AppDelegate.swift in Sources */,
 			);
@@ -700,6 +712,7 @@
 				8412D3E41F29649E0000686A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8412D3E51F29649E0000686A /* Build configuration list for PBXNativeTarget "SideMenuExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -708,6 +721,7 @@
 				8412D3E71F29649E0000686A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8412D3E81F29649E0000686A /* Build configuration list for PBXNativeTarget "SideMenuExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -716,6 +730,7 @@
 				8412D3EA1F29649E0000686A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
