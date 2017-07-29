@@ -14,6 +14,8 @@
 		842A36BD1F2CEB4C0001A36F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842A36BB1F2CEB4C0001A36F /* LaunchScreen.storyboard */; };
 		842A36C81F2CEB4C0001A36F /* SideOutMenuwithNavTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842A36C71F2CEB4C0001A36F /* SideOutMenuwithNavTests.swift */; };
 		842A36D31F2CEB4C0001A36F /* SideOutMenuwithNavUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842A36D21F2CEB4C0001A36F /* SideOutMenuwithNavUITests.swift */; };
+		842A36E11F2CED9B0001A36F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842A36E01F2CED9B0001A36F /* TableViewController.swift */; };
+		842A36E31F2CF1FC0001A36F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842A36E21F2CF1FC0001A36F /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		842A36CE1F2CEB4C0001A36F /* SideOutMenuwithNavUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SideOutMenuwithNavUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		842A36D21F2CEB4C0001A36F /* SideOutMenuwithNavUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideOutMenuwithNavUITests.swift; sourceTree = "<group>"; };
 		842A36D41F2CEB4C0001A36F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842A36E01F2CED9B0001A36F /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		842A36E21F2CF1FC0001A36F /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				842A36B21F2CEB4C0001A36F /* AppDelegate.swift */,
 				842A36B41F2CEB4C0001A36F /* ViewController.swift */,
+				842A36E21F2CF1FC0001A36F /* MainViewController.swift */,
+				842A36E01F2CED9B0001A36F /* TableViewController.swift */,
 				842A36B61F2CEB4C0001A36F /* Main.storyboard */,
 				842A36B91F2CEB4C0001A36F /* Assets.xcassets */,
 				842A36BB1F2CEB4C0001A36F /* LaunchScreen.storyboard */,
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				842A36B51F2CEB4C0001A36F /* ViewController.swift in Sources */,
+				842A36E11F2CED9B0001A36F /* TableViewController.swift in Sources */,
 				842A36B31F2CEB4C0001A36F /* AppDelegate.swift in Sources */,
+				842A36E31F2CF1FC0001A36F /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
